@@ -1,226 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>DAGAR TIYO Vaneck Duramel — Portfolio</title>
-  <meta name="description" content="Portfolio de DAGAR TIYO Vaneck Duramel — Étudiant en informatique, data science & IA" />
-  <style>
-    :root{
-      --bg:#ffffff;
-      --muted:#6b7280;
-      --accent:#0b63b6; /* bleu profond */
-      --card:#f8fafc;
-      --glass: rgba(255,255,255,0.65);
-      --radius:14px;
-      --maxw:1000px;
-      --shadow: 0 6px 18px rgba(15,23,42,0.08);
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-    }
-    *{box-sizing:border-box}
-    html,body{height:100%;margin:0;background:var(--bg);color:#0f172a}
-    a{color:var(--accent);text-decoration:none}
-    .wrap{max-width:var(--maxw);margin:48px auto;padding:28px}
-
-    /* Header / Hero */
-    header{display:flex;gap:24px;align-items:center;justify-content:space-between}
-    .hero{display:flex;gap:24px;align-items:center}
-    .avatar{width:120px;height:120px;border-radius:999px;flex:0 0 120px;overflow:hidden;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#eef7ff,#f8fbff);box-shadow:var(--shadow)}
-    .avatar img{width:100%;height:100%;object-fit:cover;display:block}
-    h1{margin:0;font-size:24px;line-height:1.05}
-    .subtitle{color:var(--muted);margin-top:8px}
-
-    /* Nav actions */
-    .actions{display:flex;gap:10px}
-    .btn{padding:10px 14px;border-radius:10px;border:1px solid rgba(11,99,182,0.12);background:linear-gradient(180deg,rgba(11,99,182,0.06),transparent);cursor:pointer;transition:transform .18s ease,box-shadow .18s ease}
-    .btn:hover{transform:translateY(-4px)}
-
-    /* Grid sections */
-    main{margin-top:36px}
-    .grid{display:grid;grid-template-columns:1fr;gap:20px}
-    @media(min-width:880px){.grid{grid-template-columns:1fr 320px}}
-
-    /* Card */
-    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:var(--shadow);border:1px solid rgba(15,23,42,0.03)}
-    .card h2{margin:0;font-size:18px}
-    .muted{color:var(--muted);font-size:14px}
-
-    /* Projects list */
-    .projects{display:grid;gap:12px}
-    .proj{display:flex;gap:12px;align-items:flex-start;padding:12px;border-radius:10px;background:linear-gradient(180deg,#fff,#fbfcfe);transition:transform .16s ease,box-shadow .16s ease}
-    .proj:hover{transform:translateY(-6px);box-shadow:0 10px 30px rgba(11,99,182,0.08)}
-    .proj .meta{flex:1}
-    .proj .tag{font-size:12px;padding:6px 8px;border-radius:8px;background:#eef6ff;color:var(--accent);display:inline-block}
-    .proj-title{margin:0 0 6px 0}
-    .proj-desc{color:var(--muted);font-size:14px;margin:0}
-
-    /* Certs */
-    .certs{display:flex;flex-direction:column;gap:8px}
-    .cert{display:flex;justify-content:space-between;align-items:center;padding:10px;border-radius:10px;background:linear-gradient(180deg,#fff,#fbfcfe)}
-    .cert .name{font-size:14px}
-    .cert .src{font-size:12px;color:var(--muted)}
-
-    /* Contact */
-    .contact-list{display:flex;flex-direction:column;gap:8px}
-    .contact-list a{display:inline-flex;gap:10px;align-items:center;padding:10px;border-radius:10px}
-
-    footer{margin-top:36px;color:var(--muted);font-size:13px;text-align:center}
-
-    /* small helpers */
-    .small{font-size:13px;color:var(--muted)}
-
-    /* smooth scroll for anchor links */
-    html{scroll-behavior:smooth}
-
-    /* subtle entrance animation */
-    .fade-up{opacity:0;transform:translateY(8px);animation:fadeUp .6s ease forwards}
-    .fade-up.delay{animation-delay:.08s}
-    @keyframes fadeUp{to{opacity:1;transform:none}}
-
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DAGAR TIYO Vaneck Duramel - About Me</title>
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <div class="wrap">
-    <header class="fade-up">
-      <div class="hero">
-        <div class="avatar" aria-hidden>
-          <!-- placeholder SVG; replace with your photo by changing src or the img tag -->
-          <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='480' height='480'><rect width='100%' height='100%' fill='%23eef7ff'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' fill='%230b63b6' font-family='Arial' font-size='64'>VT</text></svg>" alt="Photo de DAGAR TIYO Vaneck"/>
-        </div>
-        <div>
-          <h1>DAGAR TIYO Vaneck Duramel</h1>
-          <div class="subtitle">Étudiant en informatique — passionné par la data science et l’intelligence artificielle.</div>
-          <div style="margin-top:12px" class="small">Disponible pour stages, projets freelance & collaborations</div>
-        </div>
-      </div>
+<header>
+<div><strong>DAGAR TIYO Vaneck Duramel</strong></div>
+<nav>
+<a href="index.html">About Me</a>
+<a href="projets.html">Projets</a>
+<a href="certifications.html">Certifications</a>
+<a href="cv.html">CV</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
 
-      <div class="actions">
-        <a class="btn" href="#projects">Projets</a>
-        <a class="btn" href="#certifications">Certifications</a>
-        <a class="btn" href="#contact">Contact</a>
-      </div>
-    </header>
 
-    <main class="grid">
-      <section class="card fade-up delay">
-        <h2>Projets</h2>
-        <p class="muted">Sélection de projets réalisés — chaque projet contient un lien vers le code et une description courte.</p>
+<div class="container">
+<div class="hero">
+<img src="assets/images/photo.jpg" alt="Photo de DAGAR TIYO Vaneck">
+<div>
+<h1>Étudiant en informatique</h1>
+<p>Passionné par la data science et l’intelligence artificielle.</p>
+<div class="contact-list">
+<a href="mailto:vanecktiyo0@gmail.com">✉️ Email: vanecktiyo0@gmail.com</a>
+<a href="https://www.linkedin.com/in/vaneck-dagar-3a1a6b352/" target="_blank">LinkedIn</a>
+<a href="https://github.com/winner40/" target="_blank">GitHub</a>
+</div>
+<p>Localisation: Grenoble, France</p>
+</div>
+</div>
+</div>
 
-        <div id="projects" class="projects" style="margin-top:12px">
-          <!-- Example project 1 -->
-          <article class="proj">
-            <div class="meta">
-              <div style="display:flex;align-items:center;justify-content:space-between">
-                <h3 class="proj-title">Système de recommandation (Netflix‑style)</h3>
-                <span class="tag">Python • pandas • scikit-learn</span>
-              </div>
-              <p class="proj-desc">Mise en œuvre d'un moteur de recommandation collaboratif hybride, évaluation via RMSE et matrice de confusion. Projet du cours CS109x.</p>
-              <div style="margin-top:8px"><a href="https://github.com/winner40" target="_blank">Voir le code sur GitHub →</a></div>
-            </div>
-          </article>
 
-          <!-- Example project 2 -->
-          <article class="proj">
-            <div class="meta">
-              <div style="display:flex;align-items:center;justify-content:space-between">
-                <h3 class="proj-title">Classification d'images (CNN)</h3>
-                <span class="tag">TensorFlow • CNN • Jupyter</span>
-              </div>
-              <p class="proj-desc">Prototype d’un classifieur d’images entraîné sur un petit jeu de données, suivi d’un notebook d'expérimentation et d'un rapport des résultats.</p>
-              <div style="margin-top:8px"><a href="https://github.com/winner40" target="_blank">Voir le code sur GitHub →</a></div>
-            </div>
-          </article>
-
-          <!-- Add more projects: duplicate article.proj and edit -->
-        </div>
-      </section>
-
-      <aside class="card fade-up">
-        <h2>À propos</h2>
-        <p class="muted">DAGAR TIYO Vaneck Duramel — Étudiant en informatique, intéressé par l'apprentissage automatique, l'analyse de données et l'ingénierie des données. J'aime transformer des idées en prototypes fonctionnels.</p>
-
-        <div style="height:14px"></div>
-        <h2 id="certifications">Certifications</h2>
-        <div class="certs" style="margin-top:8px">
-          <div class="cert">
-            <div>
-              <div class="name">Introduction to Data Science with Python</div>
-              <div class="src">HarvardX (edX) — CS109x</div>
-            </div>
-            <div class="small"><a href="https://learning.edx.org/course/course-v1:HarvardX+CS109x+3T2024/home" target="_blank">Détails</a></div>
-          </div>
-
-          <div class="cert">
-            <div>
-              <div class="name">Introduction to Artificial Intelligence with Python</div>
-              <div class="src">HarvardX / edX</div>
-            </div>
-            <div class="small"><a href="https://www.edx.org/" target="_blank">Détails</a></div>
-          </div>
-
-          <div class="cert">
-            <div>
-              <div class="name">Machine Learning (Data Science)</div>
-              <div class="src">edX / Various</div>
-            </div>
-            <div class="small"><a href="https://www.edx.org/" target="_blank">Détails</a></div>
-          </div>
-        </div>
-
-        <div style="height:16px"></div>
-        <h2>Tech & Outils</h2>
-        <p class="muted">Python, pandas, scikit-learn, TensorFlow, Git, Linux, SQL, Jupyter, Docker (en apprentissage)</p>
-      </aside>
-
-      <!-- Full-width contact card below grid on small screens -->
-      <section class="card fade-up" style="grid-column:1 / -1;margin-top:12px">
-        <h2 id="contact">Contact</h2>
-        <p class="muted">Tu peux me contacter pour des offres de stage, collaborations ou questions concernant mes projets.</p>
-
-        <div class="contact-list" style="margin-top:8px">
-          <a href="https://www.linkedin.com/in/vaneck-dagar-3a1a6b352/" target="_blank" class="card" style="display:flex;align-items:center;gap:12px">
-            <div style="width:44px;height:44px;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#eef6ff">in</div>
-            <div>
-              <div style="font-weight:600">LinkedIn</div>
-              <div class="muted">linkedin.com/in/vaneck-dagar-3a1a6b352/</div>
-            </div>
-          </a>
-
-          <a href="https://github.com/winner40/" target="_blank" class="card" style="display:flex;align-items:center;gap:12px">
-            <div style="width:44px;height:44px;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#f6f8fb">GH</div>
-            <div>
-              <div style="font-weight:600">GitHub</div>
-              <div class="muted">github.com/winner40</div>
-            </div>
-          </a>
-
-          <a href="mailto:vanecktiyo0@gmail.com" class="card" style="display:flex;align-items:center;gap:12px">
-            <div style="width:44px;height:44px;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#fff4e6">✉️</div>
-            <div>
-              <div style="font-weight:600">Email</div>
-              <div class="muted">vanecktiyo0@gmail.com</div>
-            </div>
-          </a>
-        </div>
-
-      </section>
-
-    </main>
-
-    <footer class="fade-up small">© <span id="year"></span> DAGAR TIYO Vaneck Duramel — Portfolio</footer>
-  </div>
-
-  <script>
-    // Insert current year
-    document.getElementById('year').textContent = new Date().getFullYear();
-
-    // Small enhancement: replace avatar by uploaded image if present
-    // To change avatar: replace src attribute of <img> inside .avatar, or set a file input in your repo.
-
-    // Accessibility focus outline
-    document.addEventListener('keyup', e => {
-      if (e.key === 'Tab') document.documentElement.classList.add('show-focus');
-    });
-  </script>
+<footer>© <span id="year"></span> DAGAR TIYO Vaneck Duramel</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
