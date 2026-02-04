@@ -265,7 +265,7 @@ export default function App() {
 
           {
       slug: "rebond-et-match-data-scientist",
-      period: "Juin 2025 – Aujourd’hui",
+      period: "Juin 2025 – Septembre 2025",
       company: "Rebond & Match",
       role: "Stagiaire Data Scientist",
       location: "Vizille, Auvergne-Rhône-Alpes, France",
@@ -284,7 +284,7 @@ export default function App() {
         "Stage Data Scientist au sein de Rebond & Match, plateforme d’accompagnement et de transition professionnelle, visant à sécuriser les choix de carrière et à guider les utilisateurs vers des opportunités réalistes et motivantes grâce à la donnée et à l’IA.",
       bullets: [
         "Analyse et structuration des données liées aux parcours professionnels, compétences et objectifs des utilisateurs.",
-        "Développement de logiques de scoring et de modèles de machine learning pour soutenir l’aide à la décision en matière d’orientation et d’évolution professionnelle.",
+        "Développement de modèles de machine learning pour soutenir l’aide à la décision en matière d’orientation et d’évolution professionnelle.",
         "Exploration des données afin d’identifier profils types, trajectoires récurrentes et leviers d’accompagnement pertinents.",
         "Contribution à l’intégration de briques data et IA au sein d’une application SaaS dédiée au coaching et à la mobilité professionnelle.",
         "Collaboration avec les équipes métier pour aligner les analyses data avec les enjeux d’accompagnement, de reconversion et de prévention du burn-out."
