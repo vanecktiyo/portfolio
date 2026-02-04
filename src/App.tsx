@@ -263,53 +263,58 @@ export default function App() {
     }
       ,
 
-        {
-      slug: "rebond-et-match-ia",
-      period: "juin 2025 – Aujourd’hui",
+          {
+      slug: "rebond-et-match-data-scientist",
+      period: "Juin 2025 – Aujourd’hui",
       company: "Rebond & Match",
-      role: "Développeur IA (Bénévolat)",
-      location: "France",
+      role: "Stagiaire Data Scientist",
+      location: "Vizille, Auvergne-Rhône-Alpes, France",
       link: "https://www.linkedin.com/company/rebondetmatch/",
       tags: [
-        "IA",
-        "SaaS",
-        "Algorithmes",
-        "Bases de données",
+        "Data Science",
+        "Machine Learning",
+        "Analyse de données",
+        "Aide à la décision",
+        "Scoring",
+        "RH & Mobilité professionnelle",
         "Python",
-        "Machine Learning"
+        "SaaS"
       ],
       desc:
-        "Conception et développement de solutions SaaS intégrant des algorithmes d’IA et des systèmes de gestion de données, au service de projets à impact social.",
+        "Stage Data Scientist au sein de Rebond & Match, plateforme d’accompagnement et de transition professionnelle, visant à sécuriser les choix de carrière et à guider les utilisateurs vers des opportunités réalistes et motivantes grâce à la donnée et à l’IA.",
       bullets: [
-        "Conception et développement de solutions SaaS intégrant des algorithmes d’intelligence artificielle.",
-        "Implémentation de logiques IA pour répondre à des problématiques métiers concrètes.",
-        "Participation à la structuration et à la gestion des bases de données de la plateforme.",
-        "Collaboration avec une équipe pluridisciplinaire dans un contexte associatif et à impact.",
+        "Analyse et structuration des données liées aux parcours professionnels, compétences et objectifs des utilisateurs.",
+        "Développement de logiques de scoring et de modèles de machine learning pour soutenir l’aide à la décision en matière d’orientation et d’évolution professionnelle.",
+        "Exploration des données afin d’identifier profils types, trajectoires récurrentes et leviers d’accompagnement pertinents.",
+        "Contribution à l’intégration de briques data et IA au sein d’une application SaaS dédiée au coaching et à la mobilité professionnelle.",
+        "Collaboration avec les équipes métier pour aligner les analyses data avec les enjeux d’accompagnement, de reconversion et de prévention du burn-out."
       ],
       case: {
         problem:
-          "Développer des solutions technologiques intelligentes capables de soutenir des projets à impact social, tout en garantissant robustesse, évolutivité et exploitabilité des données.",
+          "Comment exploiter les données des parcours professionnels et des profils utilisateurs pour sécuriser les décisions de carrière, améliorer l’accompagnement et proposer des orientations personnalisées dans un contexte de transition professionnelle.",
         approach: [
-          "Analyse des besoins fonctionnels et métiers de la plateforme Rebond & Match.",
-          "Conception de briques IA adaptées aux cas d’usage identifiés (automatisation, aide à la décision).",
-          "Développement de solutions SaaS intégrant algorithmes d’IA et gestion structurée des données.",
-          "Travail collaboratif avec les parties prenantes pour aligner la solution technique avec l’impact recherché.",
+          "Compréhension des enjeux RH et des problématiques de mobilité et de reconversion professionnelle.",
+          "Nettoyage, structuration et analyse exploratoire des données utilisateurs.",
+          "Conception de modèles et indicateurs data-driven pour le scoring et l’aide à la décision.",
+          "Itérations et ajustements à partir des retours métier et des données observées.",
+          "Restitution des résultats de manière claire et compréhensible pour des profils non techniques."
         ],
         impact: [
-          "Contribution directe à des projets à impact social via l’IA.",
-          "Mise en production de briques techniques exploitables dans un environnement SaaS.",
-          "Renforcement de la fiabilité et de la structuration des données de la plateforme.",
+          "Meilleure structuration et exploitation des données liées aux parcours professionnels.",
+          "Apport d’analyses et de modèles facilitant la prise de décision et l’accompagnement personnalisé.",
+          "Contribution directe à un projet à impact social autour de l’évolution professionnelle et du futur du travail."
         ],
         stack: [
           "Python",
+          "Pandas",
+          "Scikit-learn",
+          "Analyse de données",
           "Machine Learning",
-          "IA",
-          "Bases de données",
+          "Scoring & Aide à la décision",
           "SaaS"
         ],
       },
     },
-
 
     {
       slug: "krakos-lig",
