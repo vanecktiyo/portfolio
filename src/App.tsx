@@ -57,6 +57,45 @@ export default function App() {
 
   const projects = useMemo(
     () => [
+
+          {
+      slug: "academic-admission-ranking-ai",
+      year: "2026",
+      title: "Système d’aide intelligente au classement des candidatures académiques",
+      desc: "Application d’aide à la décision permettant de classer automatiquement des candidatures selon des critères paramétrables, avec une logique transparente et explicable.",
+      tags: [
+        "Aide à la décision",
+        "IA",
+        "Machine Learning",
+        "Data Analysis",
+        "Classement",
+        "Transparence"
+      ],
+      case: {
+        problem:
+          "Comment aider les établissements académiques à classer des candidatures de manière objective, transparente et adaptable, tout en tenant compte de critères multiples et évolutifs selon les formations.",
+        approach: [
+          "Définition de critères de sélection paramétrables par formation (parcours académique, compétences, résultats, expériences).",
+          "Conception d’un moteur de scoring et de classement basé sur des règles pondérées explicables.",
+          "Structuration et traitement des données de candidatures pour garantir cohérence et traçabilité.",
+          "Intégration progressive de modèles de machine learning exploitant des données historiques et retours d’évaluation.",
+          "Justification des résultats via des scores détaillés et une logique de classement interprétable."
+        ],
+        impact: [
+          "Classement des candidatures plus cohérent, reproductible et justifiable.",
+          "Réduction du temps de traitement des dossiers et aide à la décision pour les jurys.",
+          "Approche transparente favorisant l’acceptabilité des résultats par les parties prenantes."
+        ],
+        stack: [
+          "Python",
+          "Machine Learning",
+          "Analyse de données",
+          "Scoring & Ranking",
+          "Aide à la décision"
+        ]
+      },
+    },
+
       {
         slug: "kaggle-energie",
         year: "2025",
