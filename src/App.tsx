@@ -50,7 +50,7 @@ export default function App() {
       linkedin: "https://www.linkedin.com/in/vaneck-dagar/",
       github: "https://github.com/vanecktiyo",
       cvUrl: "CV_Vaneck_Dagar.pdf",
-      availability: "À la recherche d'une alternance de 12 mois pour mon Master 2 dès septembre 2026, sur un rythme de 2 jours à l'école et 3 jours en entreprise.",
+      availability: "À la recherche d'une alternance de 12 mois pour mon Master 2 dès septembre 2026, sur un rythme de deux jours à l'école et trois jours en entreprise.",
     }),
     []
   );
@@ -101,6 +101,7 @@ export default function App() {
   year: "2026",
   title: "Tableau de Bord RH – Analyse du Turnover & de la Performance",
   desc: "Dashboard RH interactif permettant d’analyser les effectifs, la performance et le turnover afin d’identifier les leviers d’amélioration et d’appuyer la prise de décision RH.",
+  Url: "https://github.com/vanecktiyo/Power-BI-Dashboard-RH",
   tags: [
     "Data Analysis",
     "Power BI",
@@ -360,7 +361,7 @@ export default function App() {
       company: "Équipe KrakOs (Laboratoire LIG)",
       role: "Stagiaire Développement Systèmes & IA",
       location: "Grenoble, France",
-       link: "https://github.com/vanecktiyo/usm",
+       link: "https://www.liglab.fr/fr/recherche/equipes-recherche/krakos",
       tags: ["Python", "C", "Linux", "Git/GitHub", "Pandas", "NumPy", "Scikit-learn"],
       desc:
         "Optimisation des ressources système sous Linux via USM(Userspace memory management) et des approches IA/ML : évaluation comparative, politiques prédictives et validation expérimentale.",
