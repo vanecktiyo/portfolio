@@ -96,6 +96,44 @@ export default function App() {
       },
     },
 
+    {
+  slug: "hr-dashboard-turnover-performance",
+  year: "2026",
+  title: "Tableau de Bord RH – Analyse du Turnover & de la Performance",
+  desc: "Dashboard RH interactif permettant d’analyser les effectifs, la performance et le turnover afin d’identifier les leviers d’amélioration et d’appuyer la prise de décision RH.",
+  tags: [
+    "Data Analysis",
+    "Power BI",
+    "RH Analytics",
+    "Turnover",
+    "Data Storytelling",
+    "KPI"
+  ],
+  case: {
+    problem:
+      "Comment analyser efficacement les indicateurs RH clés afin d’identifier les facteurs de turnover et de performance, et fournir une vision claire et actionnable aux décideurs.",
+    approach: [
+      "Structuration et analyse des données RH (effectifs, contrats, ancienneté, performance, formation).",
+      "Construction d’indicateurs clés : taux de turnover, productivité, participation et complétion des formations.",
+      "Conception d’un parcours de data storytelling depuis une vue globale jusqu’à une analyse détaillée par département.",
+      "Mise en place de visualisations interactives facilitant l’exploration et la comparaison des indicateurs."
+    ],
+    impact: [
+      "Analyse de 508 employés avec un taux de turnover global identifié à 1,75 %.",
+      "Mise en évidence des écarts de performance et de turnover entre départements.",
+      "Aide à l’identification des zones à risque RH et des leviers d’amélioration de la performance."
+    ],
+    stack: [
+      "Power BI",
+      "DAX",
+      "Power Query",
+      "Data Visualization",
+      "Data Storytelling"
+    ]
+  },
+},
+
+
       {
         slug: "kaggle-energie",
         year: "2025",
