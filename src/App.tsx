@@ -184,7 +184,7 @@ export default function App() {
         year: "2025",
         title: "Prédiction de consommation énergétique (Kaggle)",
         desc: "Prévision de la consommation pour 100k+ bâtiments avec feature engineering avancé et modèles de régression.",
-        tags: ["ML", "Régression", "Énergie", "Python"],
+        tags: ["ML", "Régression","Python"],
         case: {
           problem:
             "Réduire les coûts et l’empreinte carbone en prévoyant précisément la consommation énergétique à grande échelle.",
