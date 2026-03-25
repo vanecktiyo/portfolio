@@ -58,6 +58,50 @@ export default function App() {
   const projects = useMemo(
     () => [
 
+      {
+        slug: "sms-spam-detector-nlp-ml",
+        year: "2026",
+        title: "SMS Spam Detector — NLP & Machine Learning",
+        desc: "Application de classification de SMS combinant traitement du langage naturel (preprocessing, tokenization, vectorization TF-IDF) et machine learning (Naive Bayes). Interface web Flask interactive avec prédictions en temps réel et justification de confiance.",
+        Url: "https://github.com/vanecktiyo/sms-spam-detector",
+        tags: [
+          "NLP",
+          "Machine Learning",
+          "Text Processing",
+          "Classification",
+          "TF-IDF",
+          "Naive Bayes",
+          "Flask",
+          "Data Science"
+        ],
+        case: {
+          problem:
+            "Classifier automatiquement les SMS en spam ou messages légitimes (HAM) en exploitant les techniques de traitement du langage naturel et d'apprentissage automatique, tout en offrant une interface web intuitive pour tester le modèle.",
+          approach: [
+            "Pipeline NLP complet : nettoyage textuel (regex), tokenization, suppression des stop words (NLTK), et lemmatization.",
+            "Vectorization TF-IDF : conversion du texte brut en représentation vectorielle exploitable par le modèle.",
+            "Machine Learning : entraînement d'un modèle Naive Bayes Multinomial sur le dataset SMS Spam Collection (5572 SMS annotés).",
+            "Séparation train/test (80/20) avec stratification pour garantir une bonne généralisation.",
+            "Développement d'une application Flask avec interface HTML/CSS/JavaScript pour tester le modèle en temps réel.",
+            "Évaluation complète : accuracy, precision, recall, F1-score et matrice de confusion."
+          ],
+          impact: [
+            "Modèle entraîné avec ~98% d'accuracy et 89% de F1-score sur le test set.",
+            "Application web déployable permettant à n'importe qui de tester la classification sur nouveaux SMS.",
+            "Démonstration end-to-end du pipeline NLP→ML : du prétraitement textuel à la prédiction avec justification.",
+            "Projet pédagogique complet du cours NLP (pages 283-287) : synthèse de tokenization, lemmatization, vectorization et classification."
+          ],
+          stack: [
+            "Python",
+            "NLP: NLTK, regex, tokenization",
+            "Machine Learning: scikit-learn (TF-IDF, Naive Bayes)",
+            "Web: Flask, HTML/CSS/JavaScript",
+            "Data: pandas, pickle",
+            "Dataset: SMS Spam Collection (UCI)"
+          ]
+        }
+      },
+      
           {
       slug: "academic-admission-ranking-ai",
       year: "2026",
@@ -225,27 +269,7 @@ export default function App() {
         }
       },
 
-      {
-        slug: "accidents-open-data",
-        year: "2024",
-        title: "Dashboard accidents routiers (Open Data)",
-        desc: "Analyse de 200k+ enregistrements et visualisations interactives pour comprendre les facteurs d’accidents.",
-        tags: ["Open Data", "Dash", "Plotly"],
-        case: {
-          problem:
-            "Offrir aux décideurs locaux une vision claire des zones et périodes les plus accidentogènes.",
-          approach: [
-            "ETL léger sur données publiques : nettoyage, normalisation, enrichissement contextuel.",
-            "Construction de KPIs (type d’accident, gravité, conditions météo, horaires, zones).",
-            "Dashboard interactif avec filtres par zone, type d’accident, période et contexte.",
-          ],
-          impact: [
-            "Exploration rapide des zones critiques et des périodes à risque.",
-            "Support pour orienter les campagnes de prévention routière locales.",
-          ],
-          stack: ["Python", "pandas", "Dash", "Plotly"],
-        },
-      },
+
     ],
     []
   );
