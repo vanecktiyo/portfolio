@@ -108,6 +108,7 @@ export default function App() {
       title: "Système d’aide intelligente au classement des candidatures académiques",
       desc: "Application d’aide à la décision permettant de classer automatiquement des candidatures selon des critères paramétrables, avec une logique transparente et explicable.",
       tags: [
+        "MLOps",
         "Aide à la décision",
         "IA",
         "Machine Learning",
